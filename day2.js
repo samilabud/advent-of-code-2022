@@ -85,7 +85,7 @@ const resolvePart2 = async () => {
     }
     score+=points[me];
   })
-  console.log('Part two answer', score) //12752
+  console.log('Part two answer', score)
   
 }
 

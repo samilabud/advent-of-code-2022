@@ -100,7 +100,7 @@ const resolvePart2 = async () => {
     sumOfPriorities+= lowerCaseCommonItem ? priorities[lowerCaseCommonItem] : 0;
     sumOfPriorities+= upperCaseCommonItem ? priorities[upperCaseCommonItem] : 0;
   })
-  console.log('Part two answer', sumOfPriorities);//2217
+  console.log('Part two answer', sumOfPriorities);
 }
 
 resolvePart2();
